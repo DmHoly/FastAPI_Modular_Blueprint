@@ -1,0 +1,29 @@
+# Framework Web
+fastapi
+
+# Serveur ASGI
+uvicorn[standard]
+
+# Base de données (ORM)
+sqlalchemy
+sqlite
+
+# Manipulation des données
+pandas
+
+# Visualisation
+matplotlib
+
+# Interface utilisateur (au choix : Dash ou Streamlit)
+dash
+streamlit
+
+# Notebooks interactifs
+jupyter
+
+# Sécurité et validation des données
+pydantic
+
+# Outils utiles
+python-dotenv
+requests

@@ -1,0 +1,1 @@
+# Définition des tables avec SQLAlchemy
