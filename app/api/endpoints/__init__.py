@@ -10,5 +10,7 @@ Ce fichier permet d'importer les endpoints plus facilement.
 """
 
 from .dummy import router as dummy_router
+from .reports import router as reports_router
+from .graph import router as graph_router
 
-__all__ = ["dummy_router"]
+__all__ = ["dummy_router", "reports_router", "graph_router"]
