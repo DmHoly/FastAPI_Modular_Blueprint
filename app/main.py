@@ -16,7 +16,14 @@ app.include_router(router)
 # Endpoint de test
 @app.get("/")
 async def root():
-    return {"message": "🚀 FastAPI est en ligne !"}
+    routes = {route.path: route.name for route in app.routes}
+    return {
+        "message": "🚀 FastAPI est en ligne !",
+        ""
+        ""
+        ""
+        "routes_disponibles": routes
+    }
 
 # Lancer avec uvicorn si ce fichier est exécuté directement
 if __name__ == "__main__":
